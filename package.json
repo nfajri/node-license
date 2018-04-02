@@ -1,0 +1,20 @@
+{
+  "name": "node-license",
+  "version": "0.0.1",
+  "description": "Combination between licensekey and node-machine-id to protect nodejs application. Use packager topackage the source code for additional protection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "license",
+    "serial",
+    "number"
+  ],
+  "author": "Nur Rohman Fajri",
+  "license": "MIT",
+  "dependencies": {
+    "licensekey": "^2.0.11",
+    "node-machine-id": "^1.1.10"
+  }
+}
